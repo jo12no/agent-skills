@@ -39,6 +39,14 @@ The briefing typically includes:
 - Dormant resources and cleanup candidates
 - Commands that failed or limits of the review
 
+## Notes
+
+- The skill uses read-only commands by default.
+- It distinguishes enabled APIs from actual resources.
+- It labels inferred behavior clearly when source code or logs have not confirmed it.
+- It avoids pasting secrets, tokens, request payloads, and long log bodies.
+
+
 ## Files
 
 - `SKILL.md` - Core workflow and reporting rules
