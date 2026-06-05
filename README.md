@@ -38,13 +38,6 @@ Review this GCP project with gcloud and give me a 101 refresher: project=PROJECT
 - Google Cloud CLI (`gcloud`) for the GCP Project Refresher skill.
 - Authenticated Google Cloud access with read-only permissions for the target project when running live inventory commands.
 
-## Notes
-
-- The skill uses read-only commands by default.
-- It distinguishes enabled APIs from actual resources.
-- It labels inferred behavior clearly when source code or logs have not confirmed it.
-- It avoids pasting secrets, tokens, request payloads, and long log bodies.
-
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
